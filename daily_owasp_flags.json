@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-02T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 31027,
+  "total_runs": 31327,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -34,7 +34,7 @@
         "agentrq",
         "pggraph"
       ],
-      "occurrences": 4113
+      "occurrences": 4149
     },
     {
       "flag": "LLM09",
@@ -44,9 +44,10 @@
         "boss-agent-cli",
         "graphify",
         "auto-browser",
-        "cloakbrowser-manager"
+        "cloakbrowser-manager",
+        "pinchtab"
       ],
-      "occurrences": 605
+      "occurrences": 620
     },
     {
       "flag": "LLM03",
@@ -56,9 +57,10 @@
         "graphify",
         "boss-agent-cli",
         "auto-browser",
-        "cloakbrowser-manager"
+        "cloakbrowser-manager",
+        "pinchtab"
       ],
-      "occurrences": 446
+      "occurrences": 455
     }
   ]
 }
