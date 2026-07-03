@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 34945,
+  "total_runs": 35245,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -34,7 +34,66 @@
         "agentrq",
         "pggraph"
       ],
-      "occurrences": 4599
+      "occurrences": 4650
+    },
+    {
+      "flag": "LLM03",
+      "affected_tools": [
+        "aimock",
+        "obscura",
+        "graphify",
+        "boss-agent-cli",
+        "auto-browser",
+        "cloakbrowser-manager",
+        "pinchtab",
+        "mempalace",
+        "ponytail",
+        "caveman",
+        "tencentdb-agent-memory",
+        "html-video",
+        "agentmemory",
+        "memory-os",
+        "opencli",
+        "agent-memory-techniques",
+        "atomicmemory",
+        "truememory",
+        "caura-memclaw",
+        "ob1",
+        "gemma-gem",
+        "second-brain-cloudflare",
+        "pmb",
+        "agency-agents-zh",
+        "browser-harness",
+        "loop-engineering",
+        "ai-engineering-from-scratch",
+        "obsidian-second-brain",
+        "invisible-playwright",
+        "tavily-key-generator",
+        "burner-agents",
+        "terminal",
+        "atomic-agent",
+        "clawbench",
+        "bux",
+        "interceptor",
+        "browser-search",
+        "agent-browser-mcp",
+        "kane-cli",
+        "wmux",
+        "damru",
+        "statewave",
+        "agent-systems-handbook",
+        "agents-best-practices",
+        "faros",
+        "skillpack",
+        "revdiff",
+        "agent",
+        "jumping-agent-platform",
+        "webclaw",
+        "career-ops",
+        "agentrq",
+        "pggraph"
+      ],
+      "occurrences": 848
     },
     {
       "flag": "LLM09",
@@ -49,20 +108,6 @@
         "mempalace"
       ],
       "occurrences": 770
-    },
-    {
-      "flag": "LLM03",
-      "affected_tools": [
-        "aimock",
-        "obscura",
-        "graphify",
-        "boss-agent-cli",
-        "auto-browser",
-        "cloakbrowser-manager",
-        "pinchtab",
-        "mempalace"
-      ],
-      "occurrences": 548
     }
   ]
 }
