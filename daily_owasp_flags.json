@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 34645,
+  "total_runs": 34945,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -34,7 +34,7 @@
         "agentrq",
         "pggraph"
       ],
-      "occurrences": 4560
+      "occurrences": 4599
     },
     {
       "flag": "LLM09",
@@ -48,7 +48,7 @@
         "pinchtab",
         "mempalace"
       ],
-      "occurrences": 758
+      "occurrences": 770
     },
     {
       "flag": "LLM03",
@@ -62,7 +62,7 @@
         "pinchtab",
         "mempalace"
       ],
-      "occurrences": 542
+      "occurrences": 548
     }
   ]
 }
