@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 40357,
+  "total_runs": 40363,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -62,15 +62,15 @@
         "pggraph",
         "deepseek-reasonix",
         "hermes-desktop",
-        "learn-harness-engineering",
         "ai-berkshire",
+        "learn-harness-engineering",
         "ollama",
         "autogpt",
         "n8n",
-        "dify",
         "prompts-chat",
-        "transformers",
+        "dify",
         "anything-llm",
+        "transformers",
         "llm-app",
         "milvus",
         "javaguide",
@@ -87,10 +87,9 @@
         "onyx",
         "vanna",
         "maxkb",
-        "vibe-trading",
-        "browser-use"
+        "hermes-agent"
       ],
-      "occurrences": 5921
+      "occurrences": 5927
     },
     {
       "flag": "LLM08",
@@ -121,10 +120,9 @@
         "obscura",
         "agentrq",
         "pggraph",
-        "netdata",
-        "browser-use"
+        "hermes-agent"
       ],
-      "occurrences": 5469
+      "occurrences": 5478
     },
     {
       "flag": "LLM09",
@@ -136,10 +134,9 @@
         "auto-browser",
         "cloakbrowser-manager",
         "pinchtab",
-        "mempalace",
-        "vibe-trading"
+        "mempalace"
       ],
-      "occurrences": 803
+      "occurrences": 794
     }
   ]
 }
