@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 40415,
+  "total_runs": 40493,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -98,9 +98,15 @@
         "fastgpt",
         "openai-agents-python",
         "haystack",
-        "mastra"
+        "mastra",
+        "browser-use",
+        "scrapling",
+        "txtai",
+        "trigger-dev",
+        "mcp-for-beginners",
+        "presenton"
       ],
-      "occurrences": 5979
+      "occurrences": 6057
     },
     {
       "flag": "LLM08",
@@ -134,7 +140,7 @@
         "hermes-agent",
         "nanobot"
       ],
-      "occurrences": 5482
+      "occurrences": 5486
     },
     {
       "flag": "LLM09",
@@ -146,9 +152,10 @@
         "auto-browser",
         "cloakbrowser-manager",
         "pinchtab",
-        "mempalace"
+        "mempalace",
+        "trigger-dev"
       ],
-      "occurrences": 798
+      "occurrences": 800
     }
   ]
 }
