@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 40081,
+  "total_runs": 40357,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -59,9 +59,38 @@
         "webclaw",
         "career-ops",
         "agentrq",
-        "pggraph"
+        "pggraph",
+        "deepseek-reasonix",
+        "hermes-desktop",
+        "learn-harness-engineering",
+        "ai-berkshire",
+        "ollama",
+        "autogpt",
+        "n8n",
+        "dify",
+        "prompts-chat",
+        "transformers",
+        "anything-llm",
+        "llm-app",
+        "milvus",
+        "javaguide",
+        "llama-index",
+        "netdata",
+        "meilisearch",
+        "flow",
+        "leankg",
+        "firecrawl",
+        "langchain",
+        "deer-flow",
+        "pageindex",
+        "rag-techniques",
+        "onyx",
+        "vanna",
+        "maxkb",
+        "vibe-trading",
+        "browser-use"
       ],
-      "occurrences": 5645
+      "occurrences": 5921
     },
     {
       "flag": "LLM08",
@@ -91,9 +120,11 @@
         "cloakbrowser-manager",
         "obscura",
         "agentrq",
-        "pggraph"
+        "pggraph",
+        "netdata",
+        "browser-use"
       ],
-      "occurrences": 5442
+      "occurrences": 5469
     },
     {
       "flag": "LLM09",
@@ -105,9 +136,10 @@
         "auto-browser",
         "cloakbrowser-manager",
         "pinchtab",
-        "mempalace"
+        "mempalace",
+        "vibe-trading"
       ],
-      "occurrences": 794
+      "occurrences": 803
     }
   ]
 }
