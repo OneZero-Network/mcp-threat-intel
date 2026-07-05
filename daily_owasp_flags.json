@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 40363,
+  "total_runs": 40415,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -87,9 +87,20 @@
         "onyx",
         "vanna",
         "maxkb",
-        "hermes-agent"
+        "hermes-agent",
+        "daytona",
+        "ruflo",
+        "claude-code-best-practice",
+        "agent-reach",
+        "chrome-devtools-mcp",
+        "ui-tars-desktop",
+        "nanobot",
+        "fastgpt",
+        "openai-agents-python",
+        "haystack",
+        "mastra"
       ],
-      "occurrences": 5927
+      "occurrences": 5979
     },
     {
       "flag": "LLM08",
@@ -120,9 +131,10 @@
         "obscura",
         "agentrq",
         "pggraph",
-        "hermes-agent"
+        "hermes-agent",
+        "nanobot"
       ],
-      "occurrences": 5478
+      "occurrences": 5482
     },
     {
       "flag": "LLM09",
@@ -136,7 +148,7 @@
         "pinchtab",
         "mempalace"
       ],
-      "occurrences": 794
+      "occurrences": 798
     }
   ]
 }
