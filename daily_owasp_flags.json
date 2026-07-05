@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 40544,
+  "total_runs": 40754,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -101,9 +101,29 @@
         "mastra",
         "scrapling",
         "browser-use",
-        "txtai"
+        "txtai",
+        "khoj",
+        "trigger-dev",
+        "ralph-claude-code",
+        "mcp-for-beginners",
+        "presenton",
+        "kedro",
+        "code-review-graph",
+        "genericagent",
+        "pocketflow",
+        "eigent",
+        "web-ui",
+        "oh-my-pi",
+        "ag-ui",
+        "leon",
+        "n8n-mcp",
+        "sim",
+        "open-webui",
+        "cua",
+        "easy-vibe",
+        "flowise"
       ],
-      "occurrences": 6108
+      "occurrences": 6318
     },
     {
       "flag": "LLM08",
@@ -139,7 +159,7 @@
         "scrapling",
         "browser-use"
       ],
-      "occurrences": 5506
+      "occurrences": 5515
     },
     {
       "flag": "LLM09",
@@ -153,7 +173,7 @@
         "pinchtab",
         "mempalace"
       ],
-      "occurrences": 801
+      "occurrences": 804
     }
   ]
 }
