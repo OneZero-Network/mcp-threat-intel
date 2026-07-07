@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-07T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 41396,
+  "total_runs": 41516,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -125,7 +125,7 @@
         "waoowaoo",
         "skyvern"
       ],
-      "occurrences": 6906
+      "occurrences": 7026
     },
     {
       "flag": "LLM08",
@@ -164,7 +164,7 @@
         "firecrawl",
         "skyvern"
       ],
-      "occurrences": 5563
+      "occurrences": 5578
     },
     {
       "flag": "LLM09",
@@ -176,9 +176,10 @@
         "auto-browser",
         "cloakbrowser-manager",
         "pinchtab",
-        "mempalace"
+        "mempalace",
+        "firecrawl"
       ],
-      "occurrences": 813
+      "occurrences": 822
     }
   ]
 }
