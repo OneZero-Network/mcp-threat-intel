@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 43982,
+  "total_runs": 44213,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -144,7 +144,7 @@
         "rowboat",
         "maxun"
       ],
-      "occurrences": 9474
+      "occurrences": 9699
     },
     {
       "flag": "LLM08",
@@ -184,7 +184,7 @@
         "skyvern",
         "cloakbrowser"
       ],
-      "occurrences": 5836
+      "occurrences": 5869
     },
     {
       "flag": "LLM09",
@@ -201,7 +201,7 @@
         "browser-use",
         "ralph-claude-code"
       ],
-      "occurrences": 840
+      "occurrences": 843
     }
   ]
 }
