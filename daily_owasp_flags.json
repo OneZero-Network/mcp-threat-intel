@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 42569,
+  "total_runs": 42878,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -143,7 +143,7 @@
         "everos",
         "rowboat"
       ],
-      "occurrences": 8079
+      "occurrences": 8370
     },
     {
       "flag": "LLM08",
@@ -182,7 +182,7 @@
         "firecrawl",
         "skyvern"
       ],
-      "occurrences": 5683
+      "occurrences": 5713
     },
     {
       "flag": "LLM09",
