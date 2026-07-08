@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 44666,
+  "total_runs": 44957,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -142,9 +142,11 @@
         "astron-agent",
         "everos",
         "rowboat",
-        "maxun"
+        "maxun",
+        "duckle",
+        "vibe-trading"
       ],
-      "occurrences": 10152
+      "occurrences": 10443
     },
     {
       "flag": "LLM08",
@@ -184,7 +186,7 @@
         "skyvern",
         "cloakbrowser"
       ],
-      "occurrences": 5935
+      "occurrences": 5965
     },
     {
       "flag": "LLM09",
@@ -201,7 +203,7 @@
         "browser-use",
         "ralph-claude-code"
       ],
-      "occurrences": 846
+      "occurrences": 849
     }
   ]
 }
