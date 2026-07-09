@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-09T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 48978,
+  "total_runs": 49269,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -146,7 +146,7 @@
         "duckle",
         "vibe-trading"
       ],
-      "occurrences": 14446
+      "occurrences": 14737
     },
     {
       "flag": "LLM08",
@@ -186,7 +186,7 @@
         "skyvern",
         "cloakbrowser"
       ],
-      "occurrences": 6395
+      "occurrences": 6419
     },
     {
       "flag": "LLM09",
@@ -204,7 +204,7 @@
         "ralph-claude-code",
         "vibe-trading"
       ],
-      "occurrences": 890
+      "occurrences": 899
     }
   ]
 }
