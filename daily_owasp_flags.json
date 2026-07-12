@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-12T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 55708,
+  "total_runs": 56008,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -144,9 +144,58 @@
         "rowboat",
         "maxun",
         "duckle",
-        "vibe-trading"
+        "vibe-trading",
+        "tabularis",
+        "lazyllm",
+        "flyenv",
+        "datasets",
+        "qdrant",
+        "zvec",
+        "weaviate",
+        "claude-context",
+        "langchain4j",
+        "lancedb",
+        "vespa",
+        "deeplake",
+        "genkit",
+        "redisearch",
+        "helix-db",
+        "server",
+        "honcho",
+        "infinity",
+        "minecontext",
+        "ppt-master",
+        "socraticode",
+        "attu",
+        "autoflow",
+        "memvid",
+        "vearch",
+        "bootcamp",
+        "justhireme",
+        "examples",
+        "matrixone",
+        "seekstorm",
+        "neuron-ai",
+        "vectorchord",
+        "large-language-model-notebooks-course",
+        "vcptoolbox",
+        "llphant",
+        "dingo",
+        "datalevin",
+        "infinispan",
+        "opencontracts",
+        "pixeltable",
+        "qdrant-client",
+        "seagoat",
+        "endee",
+        "vectordbbench",
+        "pymilvus",
+        "leann",
+        "cognee",
+        "openmemory",
+        "embedanything"
       ],
-      "occurrences": 21079
+      "occurrences": 21379
     },
     {
       "flag": "LLM08",
@@ -192,9 +241,17 @@
         "memory-os",
         "ob1",
         "onyx",
-        "prompts-chat"
+        "prompts-chat",
+        "weaviate",
+        "lancedb",
+        "autoflow",
+        "memvid",
+        "vcptoolbox",
+        "endee",
+        "pymilvus",
+        "openmemory"
       ],
-      "occurrences": 7134
+      "occurrences": 7182
     },
     {
       "flag": "LLM09",
@@ -216,7 +273,7 @@
         "onyx",
         "autogpt"
       ],
-      "occurrences": 1269
+      "occurrences": 1275
     }
   ]
 }
