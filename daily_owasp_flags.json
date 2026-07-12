@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-12T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 55108,
+  "total_runs": 55408,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -146,7 +146,7 @@
         "duckle",
         "vibe-trading"
       ],
-      "occurrences": 20506
+      "occurrences": 20806
     },
     {
       "flag": "LLM08",
@@ -194,7 +194,7 @@
         "onyx",
         "prompts-chat"
       ],
-      "occurrences": 7062
+      "occurrences": 7095
     },
     {
       "flag": "LLM09",
@@ -216,7 +216,7 @@
         "onyx",
         "autogpt"
       ],
-      "occurrences": 1230
+      "occurrences": 1251
     }
   ]
 }
