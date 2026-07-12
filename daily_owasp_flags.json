@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-12T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 56308,
+  "total_runs": 56616,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -289,9 +289,62 @@
         "shardingsphere",
         "neo4j-dotnet-driver",
         "janusgraph",
-        "tinkerpop"
+        "tinkerpop",
+        "datamate",
+        "extractor",
+        "practical-data-engineering",
+        "seatunnel-web",
+        "conduit",
+        "kwipu",
+        "starlake",
+        "unifiedmodel",
+        "gate",
+        "core",
+        "pinecone-ts-client",
+        "dockit",
+        "vector-io",
+        "sqrl",
+        "fast-plaid",
+        "satoridb",
+        "oramacore",
+        "db-gpt",
+        "rabitq-library",
+        "vectordbz",
+        "hnsw",
+        "prompt-cache",
+        "strwythura",
+        "corpusos",
+        "data-science-on-gcp",
+        "vector-graph-rag",
+        "alayalite",
+        "chroma-go",
+        "biochatter",
+        "monkesearch",
+        "ahnlich",
+        "openpencil",
+        "weknora",
+        "knowledgeops-agent",
+        "seatunnel",
+        "train-llm-from-scratch",
+        "evidently",
+        "hertzbeat",
+        "superagent",
+        "localminidrama",
+        "dbhub",
+        "datadesigner",
+        "semantic-router",
+        "k8ssandra-operator",
+        "knowledge-rag",
+        "coderag",
+        "efficient-data-processing-spark",
+        "knowledge-graph-extractor",
+        "worldmonitor",
+        "daily-stock-analysis",
+        "minds",
+        "gpt-researcher",
+        "tidb"
       ],
-      "occurrences": 21679
+      "occurrences": 21979
     },
     {
       "flag": "LLM08",
@@ -357,9 +410,24 @@
         "memori",
         "codebase-memory-mcp",
         "raglite",
-        "graphrag-sdk"
+        "graphrag-sdk",
+        "pmb",
+        "db-gpt",
+        "vectordbz",
+        "data-science-on-gcp",
+        "biochatter",
+        "ahnlich",
+        "k8ssandra-operator",
+        "knowledge-rag",
+        "knowledge-graph-extractor",
+        "khoj",
+        "activepieces",
+        "waoowaoo",
+        "maxun",
+        "gpt-researcher",
+        "opik"
       ],
-      "occurrences": 7218
+      "occurrences": 7269
     },
     {
       "flag": "LLM09",
@@ -381,9 +449,12 @@
         "onyx",
         "autogpt",
         "xmem",
-        "janusgraph"
+        "janusgraph",
+        "weknora",
+        "semantic-router",
+        "coderag"
       ],
-      "occurrences": 1281
+      "occurrences": 1293
     }
   ]
 }
