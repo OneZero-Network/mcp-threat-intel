@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-20T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 32285,
+  "total_runs": 32385,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -173,16 +173,21 @@
         "opencli",
         "langwatch",
         "vibe-investing",
-        "jcode-agents"
+        "jcode-agents",
+        "jikji",
+        "mcp-server-vibes-coded",
+        "dispatch",
+        "dbhub"
       ],
-      "occurrences": 565
+      "occurrences": 574
     },
     {
       "flag": "LLM07",
       "affected_tools": [
-        "makemoneywithai"
+        "makemoneywithai",
+        "agentic-iceberg-monitor"
       ],
-      "occurrences": 2
+      "occurrences": 3
     }
   ],
   "informational_flags": [
@@ -2097,9 +2102,68 @@
         "ms-mcp",
         "agentguard",
         "coding-agent",
-        "llm-mcp-server"
+        "llm-mcp-server",
+        "mcp-database",
+        "repoclaude",
+        "multi-tenant-ecommerce-analytics-mcp",
+        "mcp-insta",
+        "docmind-mcp",
+        "pairmux",
+        "rn-devtools-hub",
+        "neuronscope",
+        "mcp-pact",
+        "ai-memory",
+        "mongodb-skillathon",
+        "sturna",
+        "roblox-portfolio-mcp",
+        "work-agent",
+        "canvas",
+        "fincrime-llm-toolkit",
+        "design-dna-mcp",
+        "youtuberbox",
+        "mcp-server",
+        "ai-agent-web-data",
+        "ai-scraper-infrastructure",
+        "gmail-mcp-server",
+        "majincleaning-ops-mcp",
+        "agentic-iceberg-monitor",
+        "optivibe-mcp",
+        "spec-ai",
+        "enterprise-ai-marketplace-agent",
+        "ibattery-mcp",
+        "agent-league-examples",
+        "techsolve-it-ticket-data-analytics-ai-agent",
+        "jikji",
+        "guidebridge",
+        "orions-belt",
+        "llm-tool-host",
+        "mcp-actual",
+        "beamng-mcp",
+        "checkpoint-mcp-on-azure-foundry",
+        "importly-mcp",
+        "mcpaudit",
+        "cledoo-mcp",
+        "truthroute",
+        "checkpoint-mcp-on-aws-agentcore",
+        "mcp-server-vibes-coded",
+        "predictive-maintenance-assistant",
+        "ai-desktop-assistant",
+        "kafka-sentinel-mcp",
+        "award-flight-alert",
+        "hajimete-ai-agent-development",
+        "agentinbox-mcp",
+        "dispatch",
+        "my-llm-tool",
+        "agents-u-cash",
+        "sprout-stem-agent",
+        "optia-agentic-workshop",
+        "logospell-mcp-server",
+        "mcp-conformance",
+        "hermesa52-living",
+        "nexus-ai",
+        "shakespeare-monologues-mcp"
       ],
-      "occurrences": 14074
+      "occurrences": 14174
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
