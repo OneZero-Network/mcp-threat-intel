@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-21T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 33713,
+  "total_runs": 33731,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
