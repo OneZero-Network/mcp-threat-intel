@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-21T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 33731,
+  "total_runs": 33831,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -193,9 +193,12 @@
         "kagent",
         "yolfi-agent",
         "sqrl",
-        "multi-agent"
+        "multi-agent",
+        "reddit-growth-mcp",
+        "llm-tool-shim",
+        "briefkasten-mcp"
       ],
-      "occurrences": 666
+      "occurrences": 672
     },
     {
       "flag": "LLM07",
@@ -2241,9 +2244,50 @@
         "keychron-ai-status-indicator",
         "el-oraculo",
         "repo-atlas",
-        "atoms-demo"
+        "atoms-demo",
+        "medha-mcp",
+        "ecommerce-reporting-agent-pub",
+        "skink",
+        "easyaccesspdf-mcp",
+        "mcplex",
+        "mcp-server-reddit-ads",
+        "reddit-growth-mcp",
+        "dameng-mcp-server",
+        "mcp-audit",
+        "agent-memory-mcp",
+        "n8n-mcp-community",
+        "rome-cli",
+        "weather-mcp",
+        "starcat-cli",
+        "civiclens",
+        "receipt-extract",
+        "starmap",
+        "agent-formation",
+        "chronos",
+        "claude-autopilot-kit",
+        "vouchfx-mcp",
+        "aivox-debtcollect-voice-ai-agent",
+        "ytmusic-mcp",
+        "halo-studio",
+        "x32-wing-mcp",
+        "searchsteward-mcp",
+        "geospatial-mcp-server",
+        "opensvc-ai-agent",
+        "frida-ios-mcp",
+        "llm-tool-shim",
+        "swagger-openapi-mcp",
+        "explore-mcp",
+        "lead-strike",
+        "ember-email-agent",
+        "agent-vault",
+        "lethe",
+        "aladin-mcp",
+        "paperclip",
+        "git-changelog-mcp",
+        "briefkasten-mcp",
+        "qlora-tool-calling-agent"
       ],
-      "occurrences": 15437
+      "occurrences": 15537
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
