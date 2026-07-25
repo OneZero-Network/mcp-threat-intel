@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-25T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 35583,
+  "total_runs": 35683,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -211,18 +211,28 @@
         "proxmoxmcp-plus",
         "evolver",
         "weather-mcp",
-        "specification-website"
+        "specification-website",
+        "arcana-dungeon",
+        "pagewatch-mcp",
+        "lyrion-mcp",
+        "at-ris-mcp",
+        "paid-business-data-mcp",
+        "medflow-ai",
+        "java-mcp-testing-demo",
+        "statcite",
+        "agent-chat-ui"
       ],
-      "occurrences": 781
+      "occurrences": 792
     },
     {
       "flag": "LLM07",
       "affected_tools": [
         "makemoneywithai",
         "agentic-iceberg-monitor",
-        "rag-techniques"
+        "rag-techniques",
+        "autonomous-ai-agent"
       ],
-      "occurrences": 4
+      "occurrences": 5
     }
   ],
   "informational_flags": [
@@ -2301,9 +2311,68 @@
         "paperclip",
         "git-changelog-mcp",
         "briefkasten-mcp",
-        "qlora-tool-calling-agent"
+        "qlora-tool-calling-agent",
+        "mcp-ai-slop-checker",
+        "brainkb-mcp",
+        "cloud-agent-platform",
+        "arcana-dungeon",
+        "novelai-image-mcp",
+        "google-flow-mcp",
+        "pagewatch-mcp",
+        "tici-taca-toey",
+        "mcpscan",
+        "locus-mcp",
+        "hyperliquidmcp",
+        "mailbox-mcp",
+        "fitness-assistant",
+        "norway-open-data-mcp",
+        "detect-harness",
+        "databricks-mcp",
+        "xincode-public",
+        "pc-screen-control",
+        "2009scape-wiki-api",
+        "mcp-enterprise-integration-suite",
+        "lyrion-mcp",
+        "maplibre-mcp",
+        "dossier-research-mcp",
+        "mcp-ucashpay",
+        "shielded-llm-tool-insec",
+        "fancy-flow-mcp",
+        "mozcode",
+        "yijian-toudi",
+        "dcs-mcp",
+        "cae-agent",
+        "leo",
+        "lore",
+        "automad-mcp-server",
+        "cempala",
+        "recit",
+        "at-ris-mcp",
+        "paid-business-data-mcp",
+        "project-lore-mcp",
+        "local-ai-agent",
+        "wasl-ai",
+        "mediflow-ai",
+        "ai-agent-temperament-test",
+        "groupon-mcp",
+        "agentx-custom-agent-platform",
+        "medflow-ai",
+        "github-manager-mcp-server",
+        "dataforge-studio",
+        "java-mcp-testing-demo",
+        "statcite",
+        "agentkit-business-analytics",
+        "agentforge-agent-framework",
+        "magic-mcp",
+        "codex-bridge",
+        "autonomous-ai-agent",
+        "mcp-server-reddit",
+        "predictioncouncil-mcp",
+        "cesium-mcp",
+        "agentic-gamedev-playbook",
+        "namefinder-mcp"
       ],
-      "occurrences": 17049
+      "occurrences": 17147
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
