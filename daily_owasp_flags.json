@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-27T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 37117,
+  "total_runs": 37210,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -233,9 +233,11 @@
         "opik",
         "asu-mcp",
         "mcp-agent-system",
-        "avid-media-composer-mcp"
+        "avid-media-composer-mcp",
+        "mcp-agent-accountability-20260726",
+        "ai-micropayment-network"
       ],
-      "occurrences": 931
+      "occurrences": 933
     },
     {
       "flag": "LLM07",
@@ -2396,9 +2398,50 @@
         "llm-tool-agent",
         "mcp-agent-system",
         "avid-media-composer-mcp",
-        "pi-dashboard-mcp"
+        "pi-dashboard-mcp",
+        "findmate",
+        "verboo-bridge",
+        "inha-library-availability-mcp",
+        "agentledger",
+        "mature-design-director",
+        "godot-mcp-bridge",
+        "openphoenix",
+        "sports-insight-agent",
+        "xbsl",
+        "unisource",
+        "abaqus-codex-mcp",
+        "agentic-game-factory",
+        "langgraph-rag-mcp-server",
+        "browser-controller",
+        "gmail-mcp",
+        "lingtai-mcp",
+        "vibe-svgs",
+        "engram-mcp",
+        "research-state-mcp",
+        "ai-behavior-monitoring-sandbox",
+        "mcp-n8n-ops",
+        "mcp-guardrail-server-agent-safe-database-tools",
+        "localvision",
+        "mcp-guardrail-gateway",
+        "cassette",
+        "tare",
+        "the-forge",
+        "compliance-ticket-automator",
+        "argus",
+        "spotify-personal",
+        "llm-world-builder",
+        "chronogit-mcp",
+        "agentchat-codex",
+        "ai-dev-playbook",
+        "wakercontext",
+        "globe-lens-mcp",
+        "mulesoft-vibes-mcp-it-asset-assistant",
+        "ai-agent-playground",
+        "mcp-multi-server-react-agent",
+        "mcp-agent-accountability-20260726",
+        "ai-micropayment-network"
       ],
-      "occurrences": 18469
+      "occurrences": 18514
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
