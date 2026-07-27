@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-27T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 37210,
+  "total_runs": 37306,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -235,9 +235,11 @@
         "mcp-agent-system",
         "avid-media-composer-mcp",
         "mcp-agent-accountability-20260726",
-        "ai-micropayment-network"
+        "ai-micropayment-network",
+        "yashveer",
+        "brightdata-mcp"
       ],
-      "occurrences": 933
+      "occurrences": 937
     },
     {
       "flag": "LLM07",
@@ -245,9 +247,10 @@
         "makemoneywithai",
         "agentic-iceberg-monitor",
         "rag-techniques",
-        "autonomous-ai-agent"
+        "autonomous-ai-agent",
+        "pageindex"
       ],
-      "occurrences": 7
+      "occurrences": 8
     }
   ],
   "informational_flags": [
@@ -2439,9 +2442,21 @@
         "ai-agent-playground",
         "mcp-multi-server-react-agent",
         "mcp-agent-accountability-20260726",
-        "ai-micropayment-network"
+        "ai-micropayment-network",
+        "seekclaw",
+        "ae-mcp",
+        "prashantdv055-ux",
+        "osrs-chat-companion-backend",
+        "agent-dashboard",
+        "todo-scheduler",
+        "eco-loop-hvac",
+        "ecommerce-prompts-mcp",
+        "mcp-server-proj",
+        "foundry-ims-mcp-docs",
+        "cubo-itati-room-booking",
+        "yashveer"
       ],
-      "occurrences": 18514
+      "occurrences": 18606
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
