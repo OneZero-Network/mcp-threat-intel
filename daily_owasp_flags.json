@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-03T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 41536,
+  "total_runs": 41636,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -259,9 +259,11 @@
         "wcgw",
         "jcodemunch-mcp",
         "telemem",
-        "mysql-mcp-server"
+        "mysql-mcp-server",
+        "carrydesk",
+        "xorcise"
       ],
-      "occurrences": 1179
+      "occurrences": 1191
     },
     {
       "flag": "LLM07",
@@ -273,9 +275,10 @@
         "pageindex",
         "sparkvsr",
         "self-llm",
-        "hands-on-modern-rl"
+        "hands-on-modern-rl",
+        "network-investigation-agent"
       ],
-      "occurrences": 23
+      "occurrences": 24
     }
   ],
   "informational_flags": [
@@ -2543,9 +2546,32 @@
         "code-anget-rules",
         "dangler",
         "handsight",
-        "easyplaywrightmcp"
+        "easyplaywrightmcp",
+        "green-finance-report",
+        "carrydesk",
+        "cobie-mcp",
+        "fold-go",
+        "assistant",
+        "xorcise",
+        "gugu-studio",
+        "codegraph",
+        "reporelay",
+        "somm",
+        "fold",
+        "loxberry-plugin-mcp-server",
+        "mcp-lyricscom",
+        "gx3-cli-mcp",
+        "ai-ml-mcp-servers",
+        "network-investigation-agent",
+        "google-search-console-mcp",
+        "ha-deferred-actions",
+        "ossinsight-mcp",
+        "kaed",
+        "tmuxdash",
+        "auto-scaffold",
+        "nifty-hubble"
       ],
-      "occurrences": 22436
+      "occurrences": 22504
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
