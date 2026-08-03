@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-03T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 41636,
+  "total_runs": 41727,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -261,9 +261,10 @@
         "telemem",
         "mysql-mcp-server",
         "carrydesk",
-        "xorcise"
+        "xorcise",
+        "mcpcut"
       ],
-      "occurrences": 1191
+      "occurrences": 1192
     },
     {
       "flag": "LLM07",
@@ -2569,9 +2570,38 @@
         "kaed",
         "tmuxdash",
         "auto-scaffold",
-        "nifty-hubble"
+        "nifty-hubble",
+        "atar",
+        "qualia",
+        "docling-mcp",
+        "aime-editor",
+        "joki-origin",
+        "shopping-agent",
+        "keyword-cluster-mcp",
+        "rails-mcp-insight",
+        "food-cli",
+        "crazyseo",
+        "agent-guard",
+        "mcp-tool-chain-optimizer",
+        "micompress-mcp",
+        "zcode-mcp-bridge",
+        "ome-contextguard",
+        "agentic-simulator-fixtures-article-demo",
+        "nitrostack-mcp-starter",
+        "langgraph-everytopic",
+        "agent-web-browser",
+        "i3mlos",
+        "insurance-policy-document-ai-agent",
+        "multi-agent-rl-env",
+        "alien-plugg-x402",
+        "autodesk-mcp",
+        "customer-support-ai-agent",
+        "code-pilot-web",
+        "mcp-baserow-schema",
+        "qpost-mcp",
+        "mcpcut"
       ],
-      "occurrences": 22504
+      "occurrences": 22542
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
