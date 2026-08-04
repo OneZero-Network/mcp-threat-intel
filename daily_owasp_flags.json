@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-04T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 42089,
+  "total_runs": 42167,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -265,9 +265,10 @@
         "mcpcut",
         "rolldate-mcp",
         "mcp-baserow-schema",
-        "mcp-lyricscom"
+        "mcp-lyricscom",
+        "secure-browser-mcp"
       ],
-      "occurrences": 1215
+      "occurrences": 1219
     },
     {
       "flag": "LLM07",
@@ -2603,9 +2604,48 @@
         "code-pilot-web",
         "mcp-baserow-schema",
         "qpost-mcp",
-        "mcpcut"
+        "mcpcut",
+        "dory",
+        "bible-mcp",
+        "misarreach-mcp",
+        "facebook-lyr",
+        "mcp-blueprint",
+        "google-jules-mcp-server",
+        "yuhi",
+        "semantic-entity-mcp",
+        "ser2mcp",
+        "smart-hydroponic-mcp",
+        "paceproof",
+        "bizhawk-mcp-native",
+        "oracle-fdi-adw-ai-dashboard-mcp",
+        "assemblash",
+        "openbrowser",
+        "crypto-mcp-directory",
+        "grasp-mcp",
+        "haltproof",
+        "deskcert-cli",
+        "godot-2d-mcp",
+        "eu-safety-gate-recall-mcp",
+        "agent-fast-dome",
+        "devops-mcp-servers-tech-summit-2026-08",
+        "vision-primitives-mcp",
+        "private-agent",
+        "engineer-mcp",
+        "bosun",
+        "jsonpatchkit",
+        "memsem",
+        "whatsapp-mcp-local",
+        "ai-learning",
+        "jira-slack-triage-agent",
+        "computeledger",
+        "chat-command",
+        "app01-esc-gpu",
+        "qwen-code",
+        "gohighlevel-mcp-starter",
+        "secure-browser-mcp",
+        "kimi-mcp"
       ],
-      "occurrences": 22878
+      "occurrences": 22956
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
