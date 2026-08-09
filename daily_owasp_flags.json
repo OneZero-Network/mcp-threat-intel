@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-09T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 44951,
+  "total_runs": 45025,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -288,7 +288,7 @@
         "mcp-rental-server",
         "huda-ai-agen"
       ],
-      "occurrences": 1381
+      "occurrences": 1384
     },
     {
       "flag": "LLM07",
@@ -336,9 +336,13 @@
         "neuronscope",
         "agent-graph",
         "marvis-risk-agent",
-        "taos"
+        "taos",
+        "google-analytics-mcp",
+        "geoagent",
+        "memu",
+        "ida-pro-mcp"
       ],
-      "occurrences": 104
+      "occurrences": 112
     }
   ],
   "informational_flags": [
@@ -2780,7 +2784,7 @@
         "huda-ai-agen",
         "leteo"
       ],
-      "occurrences": 25491
+      "occurrences": 25561
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
