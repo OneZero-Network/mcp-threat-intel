@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-09T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 44662,
+  "total_runs": 44719,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -284,9 +284,11 @@
         "meigen-ai-design-mcp",
         "openbrowser",
         "sms-florin-mcp",
-        "astronclaw-tutorial"
+        "astronclaw-tutorial",
+        "mcp-rental-server",
+        "huda-ai-agen"
       ],
-      "occurrences": 1365
+      "occurrences": 1372
     },
     {
       "flag": "LLM07",
@@ -326,9 +328,13 @@
         "agentic-ai-engineering",
         "mlx-vlm",
         "ha-deferred-actions",
-        "ag2"
+        "ag2",
+        "personal-model",
+        "obsidian-second-brain",
+        "windows-mcp",
+        "xbsl"
       ],
-      "occurrences": 71
+      "occurrences": 78
     }
   ],
   "informational_flags": [
@@ -2758,9 +2764,19 @@
         "qwenpaw",
         "skillspector",
         "vishwa-ondo-mcp",
-        "agentcore-mcp-2026-07-28"
+        "agentcore-mcp-2026-07-28",
+        "unreal-mcp",
+        "llm-safe-sql",
+        "mcp-rental-server",
+        "ask-cooter",
+        "vault-ai-mcp-server",
+        "agent-memory-obs",
+        "gigaxity-deep-research",
+        "salt-md",
+        "huda-ai-agen",
+        "leteo"
       ],
-      "occurrences": 25214
+      "occurrences": 25271
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
