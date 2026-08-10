@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-10T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 45275,
+  "total_runs": 45349,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -286,9 +286,10 @@
         "sms-florin-mcp",
         "astronclaw-tutorial",
         "mcp-rental-server",
-        "huda-ai-agen"
+        "huda-ai-agen",
+        "lvzhuan-agent"
       ],
-      "occurrences": 1397
+      "occurrences": 1400
     },
     {
       "flag": "LLM07",
@@ -350,9 +351,22 @@
         "raven",
         "token-tracker",
         "llm-wiki-agent",
-        "openagentd"
+        "openagentd",
+        "mcpsurface",
+        "oura-mcp",
+        "android-phone-mcp-server",
+        "lw-ble-mcp",
+        "desktop-control-mcp-server",
+        "king-crimson-mcp",
+        "terma",
+        "agent-gauntlet",
+        "perfagent",
+        "llm-tool-parser",
+        "code-ledger",
+        "ocean-agent",
+        "linux-pdf-llm-translator"
       ],
-      "occurrences": 141
+      "occurrences": 155
     }
   ],
   "informational_flags": [
@@ -2792,9 +2806,46 @@
         "gigaxity-deep-research",
         "salt-md",
         "huda-ai-agen",
-        "leteo"
+        "leteo",
+        "pbx-mcp",
+        "mcp-review",
+        "tubekit-mcp",
+        "fivem-kit",
+        "mcp-interop",
+        "mcpsurface",
+        "oura-mcp",
+        "ntnx-api-mcp-server",
+        "android-phone-mcp-server",
+        "lw-ble-mcp",
+        "ragbuddy",
+        "max-python-android-assistant",
+        "anchor",
+        "leafmem",
+        "desktop-control-mcp-server",
+        "csqaq-mcp-server",
+        "king-crimson-mcp",
+        "hitch",
+        "terma",
+        "instaseer-mcp",
+        "apimcp",
+        "agent-clients",
+        "docker-solar2d",
+        "agent-gauntlet",
+        "perfagent",
+        "llm-tool-parser",
+        "sofia-ai-assistant-case-study",
+        "ai-task-agent",
+        "code-ledger",
+        "markdown-rag-mcp-dotnet",
+        "ocean-agent",
+        "email-management-agent",
+        "devsop",
+        "linux-pdf-llm-translator",
+        "ai-robot-fastapi-langchain-rag-crewai-agent",
+        "lvzhuan-agent",
+        "ai-incident-lab"
       ],
-      "occurrences": 25789
+      "occurrences": 25859
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
