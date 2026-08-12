@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-12T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 47820,
+  "total_runs": 47920,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -305,9 +305,10 @@
         "elementary",
         "sillytavern",
         "pocketflow-tutorial-codebase-knowledge",
-        "markdownify-mcp"
+        "markdownify-mcp",
+        "shopkeeper-agent"
       ],
-      "occurrences": 1479
+      "occurrences": 1480
     },
     {
       "flag": "LLM07",
@@ -466,9 +467,24 @@
         "golf",
         "loxberry-plugin-mcp-server",
         "doc-to-lora",
-        "searchsteward-mcp"
+        "searchsteward-mcp",
+        "readndraft-imap-mcp",
+        "das-llm",
+        "llm-sidecar",
+        "crux-mcp",
+        "llm-platform",
+        "sendashield",
+        "agentic-research-retrieval",
+        "quant-mcp",
+        "croissant-mcp",
+        "mcp-incident-copilot",
+        "ipp-mcp-server",
+        "llm-tool-using-agent-system",
+        "databricks-lakebase-weather-mcp",
+        "pi",
+        "openderisk"
       ],
-      "occurrences": 438
+      "occurrences": 454
     }
   ],
   "informational_flags": [
@@ -2945,9 +2961,66 @@
         "linux-pdf-llm-translator",
         "ai-robot-fastapi-langchain-rag-crewai-agent",
         "lvzhuan-agent",
-        "ai-incident-lab"
+        "ai-incident-lab",
+        "mcp-stashbox",
+        "marketpulse-mcp",
+        "packkit-mcp",
+        "ai-agent-personal-workbench",
+        "02-genesis-grafana",
+        "mbta-mcp",
+        "db-seeder",
+        "wfbcargo-spawn-mcp",
+        "utmt-mcp",
+        "readndraft-imap-mcp",
+        "das-llm",
+        "mcp-server-starter-kit",
+        "openanalytics",
+        "entyrix-mcp",
+        "crux",
+        "ltd-mcp",
+        "android-ai-agent",
+        "tool-schema-validator",
+        "llm-sidecar",
+        "bronom",
+        "burp-mcp",
+        "mcp-vertical-bundle",
+        "evidenceiq-agent",
+        "playwright-mcp-ai-testing",
+        "jarvis-assistant",
+        "teams-ai-workflow",
+        "swarm-monkey",
+        "mcp-telemetry-kit",
+        "speakerweave",
+        "crux-mcp",
+        "llm-platform",
+        "atlas",
+        "phylax-mcp",
+        "hyprland-mcp",
+        "sendashield",
+        "agentic-research-retrieval",
+        "reachpad-mcp",
+        "quant-mcp",
+        "hated-wow-mcp",
+        "mcp-portfolio-generator",
+        "allscale-tab",
+        "croissant-mcp",
+        "react-tool-agent",
+        "tool-call-firewall",
+        "mcp-incident-copilot",
+        "n8n-mcp-server-ai-agent",
+        "ipp-mcp-server",
+        "nvim-ui-mcp",
+        "llm-tool-using-agent-system",
+        "reference",
+        "offerpilot",
+        "agentbits",
+        "llm-tools-gateway",
+        "role-boundary-plasticity",
+        "company-bench",
+        "databricks-lakebase-weather-mcp",
+        "pc-voice-assistant-like-stonic-ai"
       ],
-      "occurrences": 28242
+      "occurrences": 28342
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
