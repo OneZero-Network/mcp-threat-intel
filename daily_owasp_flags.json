@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-08-17T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 50387,
+  "total_runs": 50482,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -321,9 +321,10 @@
         "automem",
         "docs-mcp-server",
         "how-to-train-your-gpt",
-        "harbor"
+        "harbor",
+        "gyanlabs-agentic-hrms"
       ],
-      "occurrences": 1565
+      "occurrences": 1566
     },
     {
       "flag": "LLM07",
@@ -3158,9 +3159,61 @@
         "agent-evolution",
         "agent-study-group",
         "local-network-mcp",
-        "ai-visualizer"
+        "ai-visualizer",
+        "leetoffice",
+        "stash",
+        "agentatlas",
+        "palm-agronomy",
+        "job-application-manager-mcp",
+        "aegis-kernel",
+        "walletwatch-mcp",
+        "dsh-fate-spectrum",
+        "mnemo",
+        "dsh-code-checker",
+        "mcp-audit-gateway",
+        "rozetta",
+        "agentopt",
+        "deepseek-harness-desktop",
+        "ops-ai-agent",
+        "relay",
+        "cnki-search",
+        "agentmeasure",
+        "adom-abp",
+        "vibedot",
+        "tempera-android",
+        "ferumind",
+        "engram",
+        "dsh-mcp-servers",
+        "carrier-change-guidance-agent",
+        "upshift-mcp",
+        "githubagent",
+        "sparkagent",
+        "open-cvbaba",
+        "harness-atlas",
+        "praecise-harness",
+        "kaggriculture",
+        "research-agent-kit",
+        "lindixu6-hash",
+        "transcript-audit",
+        "openrouter-mcp",
+        "amocrm-ai",
+        "shipyard-ai",
+        "wagerx-mcp",
+        "reflex-range",
+        "paipan-mcp",
+        "weekly-brief",
+        "gyanlabs-agentic-hrms",
+        "nexagora-mcp",
+        "cartengine-ai-next-gen-agentic-e-commerce",
+        "ai-n8n-ai-agent",
+        "trip-skill",
+        "p3-agent-cell",
+        "ndumi",
+        "deepseek-harness-dev-guide",
+        "keito-matsuda-github-io",
+        "brainary-guide"
       ],
-      "occurrences": 30667
+      "occurrences": 30762
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
