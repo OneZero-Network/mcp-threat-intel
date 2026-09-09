@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-09T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 81442,
+  "total_runs": 81616,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -336,7 +336,7 @@
         "tradingagents",
         "openaccountants"
       ],
-      "occurrences": 1785
+      "occurrences": 1787
     },
     {
       "flag": "LLM07",
@@ -3413,9 +3413,55 @@
         "trustycap-mcp",
         "calibrd-agent",
         "study-planner-agent",
-        "mcp-ble-bridge"
+        "mcp-ble-bridge",
+        "gsc-mcp",
+        "vault",
+        "agentic-recall",
+        "rhino-mcp",
+        "agentready-api",
+        "sagashield",
+        "postgresql-mcp",
+        "plex-extended",
+        "china-stocks-ai-agent",
+        "abs-data-mcp",
+        "mcp-notif",
+        "ga4-mcp",
+        "zotero-mcp-v2",
+        "dmscreen",
+        "council",
+        "allegro-mcp",
+        "excalidraw-room-mcp",
+        "uia-mcp",
+        "firekey-mcp",
+        "tabelog-cli",
+        "agent-work-runtime",
+        "anymd",
+        "toolforge-runtime",
+        "xeducation-agentic-robotics-ros2-course",
+        "hass-alarm",
+        "weathertool",
+        "moovegate",
+        "product-specs-mcp",
+        "claude-plugin",
+        "sap-business-ai-agent-suite",
+        "coding-mcp",
+        "chinese-law-mcp",
+        "v4scan",
+        "lipidmix-with-llm",
+        "weathergpt",
+        "materialmodel-integrations",
+        "kafka-multi-agent",
+        "llm-port",
+        "caddy",
+        "loopera",
+        "lumamcp",
+        "api-mcp-server",
+        "bareos-minimalistic-mcp-server",
+        "mcp-schema-drift",
+        "mcp-local-file-llm",
+        "petbarn-product-assistant"
       ],
-      "occurrences": 60047
+      "occurrences": 60217
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
