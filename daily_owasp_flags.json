@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-10T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 82331,
+  "total_runs": 82497,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -334,9 +334,10 @@
         "n8n-install",
         "fhir-data-pipes",
         "tradingagents",
-        "openaccountants"
+        "openaccountants",
+        "gatling-mcp-server"
       ],
-      "occurrences": 1789
+      "occurrences": 1792
     },
     {
       "flag": "LLM07",
@@ -556,9 +557,10 @@
         "gemini-api",
         "deep-research",
         "dbhub",
-        "stackql"
+        "stackql",
+        "gatling-mcp-server"
       ],
-      "occurrences": 590
+      "occurrences": 591
     }
   ],
   "informational_flags": [
@@ -3459,9 +3461,55 @@
         "bareos-minimalistic-mcp-server",
         "mcp-schema-drift",
         "mcp-local-file-llm",
-        "petbarn-product-assistant"
+        "petbarn-product-assistant",
+        "anki-mcp",
+        "mcp-timescale",
+        "mcp-server-memory-sqlite",
+        "linux-x11-sandbox",
+        "amp",
+        "gaussdb-ro-mcp",
+        "slashyear",
+        "kitchensink4web",
+        "apk-index",
+        "aviationstack-mcp-server",
+        "lova-lang",
+        "mnvitop",
+        "repo-attention-mcp",
+        "google-scholar-mcp",
+        "gatling-mcp-server",
+        "yulidan",
+        "google-images-mcp",
+        "portage-mcp",
+        "cve-intelligence-mcp",
+        "bing-mcp",
+        "telegram-plugin",
+        "web-scraping-mcp",
+        "localscope",
+        "substack",
+        "benchme",
+        "fancy-flow-mcp-js",
+        "technocore-mcp",
+        "installer-extractor-gui",
+        "llm-traffic-assistant",
+        "drop2run-cli",
+        "diagrams-mcp-server",
+        "mcp-drift-registry",
+        "aimai-chartmaker",
+        "scrape-mcp",
+        "lodestar",
+        "agents-quality",
+        "moni",
+        "polyagent",
+        "ai-agents",
+        "full-stack-chat-application-with-multi-platform-clients-ai-agent-integration",
+        "editor",
+        "traditionaapistokongmcpservers",
+        "hotel-booking-agent",
+        "scriora-mcp",
+        "21millionpixels-agents",
+        "beam-mcp"
       ],
-      "occurrences": 60894
+      "occurrences": 61056
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
