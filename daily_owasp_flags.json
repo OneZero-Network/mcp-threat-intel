@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-12T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 84313,
+  "total_runs": 84481,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -343,7 +343,7 @@
         "aetheris-platform",
         "mix-core"
       ],
-      "occurrences": 1812
+      "occurrences": 1813
     },
     {
       "flag": "LLM07",
@@ -566,7 +566,7 @@
         "stackql",
         "gatling-mcp-server"
       ],
-      "occurrences": 594
+      "occurrences": 596
     }
   ],
   "informational_flags": [
@@ -3588,9 +3588,53 @@
         "skill-collection",
         "ai-agentic-engineering",
         "peca",
-        "aetheris-platform"
+        "aetheris-platform",
+        "streamingtoolexecutor",
+        "tkach-security",
+        "tallybook",
+        "loginforge",
+        "use-case-22-novamind-odysseus-agentic-ai-assistant",
+        "python-tool-template",
+        "safe-mcp-server",
+        "yuzu-block",
+        "brave-search",
+        "accelo-mcp",
+        "failecho",
+        "sms-sync",
+        "querypie-release-readiness-agent",
+        "ai-lead-qualifier",
+        "tauri-docs-mcp",
+        "flask-render-markdown",
+        "escrow-sentinel",
+        "sleeper-mcp",
+        "luminous-mcp",
+        "routemind",
+        "pstack",
+        "mcfortigate",
+        "ai-memory-mcp",
+        "rags-to-riches",
+        "brainiac",
+        "caxa-mcp",
+        "maya-mcp",
+        "adversarial-research-audit",
+        "marketcanvas-env",
+        "anime-agent",
+        "mcp-odoo-toolkit",
+        "lyraai",
+        "kardex",
+        "agentforge",
+        "ai-powered-shopping-agent",
+        "ruins-blockbench-mcp",
+        "pool-status-monitor",
+        "auto-ml",
+        "o11ystack",
+        "claude-mem",
+        "sharebit-mcp",
+        "central-command-mcp",
+        "learn-mcp-school",
+        "kanxueshan-mcp"
       ],
-      "occurrences": 62796
+      "occurrences": 62960
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
