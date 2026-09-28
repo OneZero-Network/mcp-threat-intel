@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-09-28T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 100207,
+  "total_runs": 100407,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -400,7 +400,7 @@
         "ai-quota-dashboard",
         "wharttest"
       ],
-      "occurrences": 2068
+      "occurrences": 2070
     },
     {
       "flag": "LLM07",
@@ -632,7 +632,7 @@
         "prest",
         "chat-ui"
       ],
-      "occurrences": 666
+      "occurrences": 667
     }
   ],
   "informational_flags": [
@@ -4008,9 +4008,49 @@
         "portveil-mcp",
         "laya",
         "podcaststotext-agent",
-        "2026-20-agent-ai-agent-llm"
+        "2026-20-agent-ai-agent-llm",
+        "hq-mcp",
+        "tianshu",
+        "whichlib",
+        "sql-ai-agent",
+        "arc-draw",
+        "fiveagent",
+        "aetherquant",
+        "china-market-data",
+        "ui-ux-glowup",
+        "godot-mcp",
+        "claude-task-handoff-mcp",
+        "ctx-store",
+        "ariadnet",
+        "jev-mcp",
+        "warudo-agent-bridge",
+        "portfolio-intel",
+        "dgus-plus-mcp",
+        "dealer-portal-ai-assistant",
+        "llmstxt-tools",
+        "paspancodegraphmcp",
+        "ai-dev-workflow",
+        "pricing-consequence-agent",
+        "reel-finder",
+        "selected-work",
+        "flowrace",
+        "xscout-jev",
+        "singleaichat",
+        "universal-text-structure-standard",
+        "mcp-guardid",
+        "reflective-research-agent",
+        "x402receipts",
+        "tool-result-clipper",
+        "glacier-mcp",
+        "gridagent-wind",
+        "owntrackshermes",
+        "agent-safe",
+        "st-novelai-imagegen",
+        "minas-webdav",
+        "wordpress-tour-mcp",
+        "sagaguard"
       ],
-      "occurrences": 78060
+      "occurrences": 78242
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
