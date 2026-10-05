@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-05T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 108121,
+  "total_runs": 108320,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -448,9 +448,49 @@
         "pdfmathtranslate",
         "blender-mcp",
         "localai",
-        "stash"
+        "stash",
+        "nexus-data-agent",
+        "demo-mcp-server",
+        "jobops-mcp",
+        "bitcoin-news-digest-api",
+        "transaction-intelligence-agent",
+        "marrow-mcp",
+        "dhunter",
+        "agentshield",
+        "mainbook-mcp",
+        "job-application-manager-mcp",
+        "walletwatch-mcp",
+        "palm-agronomy",
+        "agentatlas",
+        "teams-agent-mcp",
+        "heykels",
+        "workeragents",
+        "nfip-mcp-server",
+        "torii",
+        "02-genesis-grafana",
+        "scenef-mcp",
+        "mcp-stashbox",
+        "mbta-mcp",
+        "ai-agent-personal-workbench",
+        "mcp-review",
+        "ai-robot-fastapi-langchain-rag-crewai-agent",
+        "dynamic-db-mcp-server",
+        "mcp-blueprint",
+        "misarreach-mcp",
+        "autoflow",
+        "swiss-procurement-mcp",
+        "agentcore-fastapi-agent-backend",
+        "vayl",
+        "foodpanda-ai-mcp",
+        "guardrail-wallet",
+        "pi-dashboard-mcp",
+        "brainkb-mcp",
+        "mailbox-mcp",
+        "skink",
+        "toolforge",
+        "agent-lite"
       ],
-      "occurrences": 2238
+      "occurrences": 2341
     },
     {
       "flag": "LLM07",
@@ -4106,7 +4146,7 @@
         "wordpress-tour-mcp",
         "sagaguard"
       ],
-      "occurrences": 85120
+      "occurrences": 85319
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
