@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-09T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 111679,
+  "total_runs": 111866,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -545,9 +545,21 @@
         "appwrite",
         "autonomous-ai-agent",
         "betadrop-mcp",
-        "tencentdb-agent-memory"
+        "tencentdb-agent-memory",
+        "auctaryn",
+        "openmemfs",
+        "resilient-langgraph-agent",
+        "mcp-server-memory-sqlite",
+        "imagerouter-mcp",
+        "homedocs-alexa-plus",
+        "mcp-cost-optimizer",
+        "discord-mcp",
+        "artha-flow",
+        "market-jury",
+        "swarm-ai-website-source",
+        "apify-reliability-toolkit"
       ],
-      "occurrences": 2803
+      "occurrences": 2869
     },
     {
       "flag": "LLM07",
@@ -791,7 +803,7 @@
         "browser-harness",
         "bareos-minimalistic-mcp-server"
       ],
-      "occurrences": 796
+      "occurrences": 798
     }
   ],
   "informational_flags": [
@@ -4319,9 +4331,65 @@
         "grounded-llm-tool-calling",
         "atelier",
         "careerpilot-ai-agent",
-        "appwrite"
+        "appwrite",
+        "actae-go",
+        "locksql",
+        "auctaryn",
+        "memex-mcp",
+        "openmemfs",
+        "agentic-rag-es",
+        "imagerouter-mcp",
+        "claude-code-cockpit",
+        "laravel-forge-mcp",
+        "grafana-mcp",
+        "icloud-reminders-mcp-for-cloudflare-workers",
+        "mcp-dependency-doctor",
+        "nbg-rates-mcp",
+        "mcp-database-doctor",
+        "mcp-api-guardian",
+        "homedocs-alexa-plus",
+        "mcp-cost-optimizer",
+        "nakomis-dragonfruit-mcp",
+        "webpilot",
+        "forsee-mcp",
+        "discord-mcp",
+        "localagent-ui",
+        "control-trace-lite",
+        "opencalque",
+        "op-redteam-mcp",
+        "artha-flow",
+        "rows-page-mcp",
+        "hodl-market-insight",
+        "adsentinel",
+        "jianchuan-memory",
+        "megabase",
+        "sales-crm-mcp-server",
+        "opuity",
+        "tiletrace",
+        "wazuh-mcp",
+        "image-search-mcp",
+        "eme",
+        "cairn-ui-mcp",
+        "pictureme-mcp-public",
+        "mcbuilder",
+        "market-jury",
+        "xxd-chrome-publish",
+        "actae-ts",
+        "actae-python",
+        "deye-inverter",
+        "mc-test",
+        "powerpoint-live-mcp",
+        "mcp-deskmanager",
+        "mini-course-generator-mcp",
+        "reason-marketplace",
+        "mcp-server-usability-ruleset",
+        "swarm-ai-website-source",
+        "sap-n8n",
+        "ai-agent-practice",
+        "receipted-operator",
+        "apify-reliability-toolkit"
       ],
-      "occurrences": 88180
+      "occurrences": 88367
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
