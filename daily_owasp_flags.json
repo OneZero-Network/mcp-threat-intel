@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-23T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 123748,
+  "total_runs": 123803,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -661,7 +661,7 @@
         "markdown-archive-mcp",
         "gptme"
       ],
-      "occurrences": 6068
+      "occurrences": 6087
     },
     {
       "flag": "LLM08",
@@ -1027,9 +1027,11 @@
         "hypruse",
         "open-connector",
         "voice-agent",
-        "gptme"
+        "gptme",
+        "predictioncouncil-mcp",
+        "ytmusic-mcp"
       ],
-      "occurrences": 1296
+      "occurrences": 1298
     }
   ],
   "informational_flags": [
@@ -4841,7 +4843,7 @@
         "nodedb",
         "yiwa-studio"
       ],
-      "occurrences": 99962
+      "occurrences": 100017
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
