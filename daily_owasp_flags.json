@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-01T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 130642,
+  "total_runs": 130733,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -708,9 +708,10 @@
         "mobile-mcp",
         "noracu",
         "mcp-tool-server",
-        "warframe-builds-mcp"
+        "warframe-builds-mcp",
+        "ai-agent-book"
       ],
-      "occurrences": 8062
+      "occurrences": 8091
     },
     {
       "flag": "LLM08",
@@ -1090,7 +1091,7 @@
         "nano-mcp-public",
         "mcp-hub"
       ],
-      "occurrences": 1630
+      "occurrences": 1633
     }
   ],
   "informational_flags": [
@@ -4994,7 +4995,7 @@
         "nextchat",
         "aisoc"
       ],
-      "occurrences": 106827
+      "occurrences": 106910
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
