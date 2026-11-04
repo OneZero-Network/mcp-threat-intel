@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-04T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 135021,
+  "total_runs": 135064,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -757,7 +757,7 @@
         "emporio-agent",
         "opencode-mcp-bridge"
       ],
-      "occurrences": 9286
+      "occurrences": 9299
     },
     {
       "flag": "LLM08",
@@ -5144,7 +5144,7 @@
         "emporio-agent",
         "voicedesk"
       ],
-      "occurrences": 111149
+      "occurrences": 111192
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
