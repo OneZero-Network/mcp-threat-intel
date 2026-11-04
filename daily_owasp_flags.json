@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-04T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 134820,
+  "total_runs": 134896,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -751,9 +751,12 @@
         "google-docs-mcp",
         "whatsapp-ai-assistant",
         "whistle-mcp",
-        "airlock"
+        "airlock",
+        "incident-investigator",
+        "currency-conversion",
+        "emporio-agent"
       ],
-      "occurrences": 9231
+      "occurrences": 9251
     },
     {
       "flag": "LLM08",
@@ -1141,7 +1144,7 @@
         "openkb",
         "dts-mcp-server"
       ],
-      "occurrences": 1771
+      "occurrences": 1773
     }
   ],
   "informational_flags": [
@@ -5117,9 +5120,30 @@
         "113sotl-reflect",
         "shawonlilo",
         "recruitment-funnel-dashboard",
-        "crawl4ai"
+        "crawl4ai",
+        "aicrawl",
+        "utcp-dart",
+        "finance-agent",
+        "proxy-loop-guard",
+        "orion-assistant",
+        "agentic-tool-call-evaluator",
+        "agentic-workflow-automation",
+        "tool-call",
+        "mcp-telegram-agent",
+        "ai-budget-assistant",
+        "llm-qscorer-pilot",
+        "replica-planner",
+        "llm-toolkit-lite",
+        "agent-trace-explainer-cli",
+        "odoo-ai-sales-agent",
+        "incident-investigator",
+        "llm-toolscout",
+        "pipecat-voice-receptionist",
+        "currency-conversion",
+        "emporio-agent",
+        "voicedesk"
       ],
-      "occurrences": 110948
+      "occurrences": 111024
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
