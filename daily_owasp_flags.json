@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-14T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 144960,
+  "total_runs": 145160,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -835,9 +835,15 @@
         "omni-vision-pro",
         "edgeever",
         "caveman",
-        "crunch-mcp"
+        "crunch-mcp",
+        "mcp-lastfm",
+        "link-check-lite",
+        "socratic-tutor",
+        "codeexplorer",
+        "deepaudit",
+        "ask-my-lab"
       ],
-      "occurrences": 12484
+      "occurrences": 12525
     },
     {
       "flag": "LLM08",
@@ -1234,9 +1240,11 @@
         "repowise",
         "databend",
         "monkeycode",
-        "otari"
+        "otari",
+        "decideonce",
+        "claude-ai-initialization"
       ],
-      "occurrences": 2202
+      "occurrences": 2209
     }
   ],
   "informational_flags": [
@@ -5307,9 +5315,43 @@
         "prompt-enhancer-agent",
         "job-analyzer",
         "shopmate-ai-shopping-assistant",
-        "walawe"
+        "walawe",
+        "relai",
+        "isle",
+        "mcp-proof",
+        "codexwatch",
+        "blueprint",
+        "firefighter",
+        "nexusfree",
+        "toolbloat",
+        "mcpdiff",
+        "kaijuconverter-mcp",
+        "prowser",
+        "mcp-lastfm",
+        "gamealia-mcp",
+        "kufar-mcp",
+        "bounds",
+        "link-check-lite",
+        "vsphere-console-mcp",
+        "decideonce",
+        "memoryrouter-codex-plugin",
+        "rollycall",
+        "jev",
+        "mcp-toolkit",
+        "blender-ai-copilot-mcp",
+        "godgeldao",
+        "ai-agents-mcp",
+        "mcp-server-confluence",
+        "ppfs2026",
+        "claude-ai-initialization",
+        "mcp-server-jira",
+        "agent-ready-kit",
+        "ecommerce-leads-mcp",
+        "relai-team",
+        "socratic-tutor",
+        "pkb"
       ],
-      "occurrences": 120900
+      "occurrences": 121096
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
