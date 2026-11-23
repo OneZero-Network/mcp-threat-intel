@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-23T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 152969,
+  "total_runs": 153065,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -1265,7 +1265,7 @@
         "decideonce",
         "claude-ai-initialization"
       ],
-      "occurrences": 2476
+      "occurrences": 2477
     }
   ],
   "informational_flags": [
@@ -5371,9 +5371,58 @@
         "relai-team",
         "socratic-tutor",
         "pkb",
-        "gogs"
+        "gogs",
+        "tiktok-scraper-api-tiktok-shop-no-watermark",
+        "base64hub-mcp",
+        "glyphkeel",
+        "agent-wallet",
+        "blindspot-mcp",
+        "eien",
+        "rolematch-ai",
+        "mcp-tse",
+        "wa-mcp",
+        "allos-mcp",
+        "overleaf-mcp",
+        "relaybrowser",
+        "gunkly",
+        "auctelis",
+        "connect-personal-mcp",
+        "agentcontext",
+        "diypets",
+        "clearfills",
+        "sutradhar",
+        "mcp-agent-shield",
+        "datapilot-agent",
+        "niwa",
+        "client-agent",
+        "nipli-mcp",
+        "devpilot",
+        "koderly-security-mcp",
+        "boternity-mcp",
+        "design-system-mcp",
+        "tool-call-guard",
+        "stacksmith",
+        "tokenms",
+        "cn-law-verify",
+        "llm-tools-datacircle",
+        "crucible",
+        "limescape-umbraco-agentapi",
+        "pilcrow",
+        "a3d-tool-audit",
+        "microduck-sim2real",
+        "palabra-mark",
+        "baseguard402-mcp",
+        "credit-doc-lab",
+        "autofix-agent",
+        "turno",
+        "agentdiary",
+        "brosg-github-io",
+        "ai-voucher-agent",
+        "fatesense-mcp",
+        "telegram-account-mcp",
+        "se4458-midterm-tuition-assistant"
       ],
-      "occurrences": 128680
+      "occurrences": 128776
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
