@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-11-28T00:00:00Z",
   "source": "VerditNxtGen Ghost Swarm",
-  "total_runs": 156612,
+  "total_runs": 156696,
   "flags_detected": 3,
   "daily_owasp_flags": [
     {
@@ -1263,9 +1263,10 @@
         "monkeycode",
         "otari",
         "decideonce",
-        "claude-ai-initialization"
+        "claude-ai-initialization",
+        "agent-srd-2024"
       ],
-      "occurrences": 2585
+      "occurrences": 2587
     }
   ],
   "informational_flags": [
@@ -5420,9 +5421,58 @@
         "ai-voucher-agent",
         "fatesense-mcp",
         "telegram-account-mcp",
-        "se4458-midterm-tuition-assistant"
+        "se4458-midterm-tuition-assistant",
+        "transitous",
+        "auditdeck",
+        "caelo",
+        "gocrawl",
+        "spyglass",
+        "mcp-backbone",
+        "bfa-mcp",
+        "sieve-mcp",
+        "mcp-doctor",
+        "restaurant-voice-agent",
+        "claims-bi-agent",
+        "lode",
+        "rubii-roleplay-mcp",
+        "peartolauncher",
+        "opendata-best-mcp",
+        "amadeus",
+        "rfp-agent",
+        "ssoxy",
+        "iron-browser",
+        "ai-security-gate",
+        "wear",
+        "calmlet-mcp-servers",
+        "sync-gate",
+        "pearsonal-voice-assistant-zara",
+        "wattlas-mcp",
+        "agent-srd-2024",
+        "kipu-mcp",
+        "schemagate",
+        "oss-contributions",
+        "mcp-annotation-check",
+        "railpilot-mcp",
+        "financeops-agent-portfolio",
+        "ai-kit",
+        "green-jeans",
+        "nexuron-order-resolution-agent",
+        "llm-toolcall-check",
+        "week4-day4-integrated-ai-assistant",
+        "fablun-cli",
+        "slack-ai-incident-assistant",
+        "chitti-robot-2-0",
+        "specinbox-mcp",
+        "appstoreconnectmcp",
+        "agentic-ai-rfp-automation",
+        "interview-questions-mcp",
+        "plumaden-mcp",
+        "parsed-mcp",
+        "agentrun",
+        "brickloom",
+        "excalidraw"
       ],
-      "occurrences": 132233
+      "occurrences": 132317
     }
   ],
   "informational_note": "LLM03 fires on every tool built from source (a local build has no registry digest by construction). It is provenance, not a vulnerability, and is excluded from flags_detected, the certification gate, and threat advisories."
